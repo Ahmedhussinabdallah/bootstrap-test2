@@ -1,0 +1,169 @@
+body{
+    height: 2000px;
+    padding-top: 70px;
+}
+/* start section about */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about h1{
+    font-weight: bold;
+}
+.about span{
+    color: #573838;
+}
+/* End section about */
+
+/* start section feature */
+.feature{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feature h1{
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.feature .feat{
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+.feature .feat .glyphicon {
+    color: #724343;
+    font-size: 25px;
+}
+.feature .feat h3{
+margin-bottom: 20px;
+}
+
+/* end section feature */
+
+/* start testimonials section */
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials .lead{
+    line-height: 2em;
+    margin-bottom:10px ;
+}
+.testimonials .carousel-indicators li{
+    background-color:#c7bebe;
+    border:1px solid #c59b9b;
+    
+}
+.testimonials .carousel-indicators li img{
+    max-width: 100%;
+}
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+}
+.testimonials span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #573838;
+}
+.testimonials .carousel-inner-{
+    min-height: 160px;
+}
+.testimonials .carousel-indicators{
+    position: static;
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #724343;
+    overflow: hidden;
+}
+/* start testimonials section */
+
+
+/* ********* start over raiding bootstrap *********** */
+/* navbar style */
+.navbar-inverse{
+    background-color: #573838;
+    border-bottom: #bbb;
+}
+
+/* navbar hover */
+    .navbar-inverse .navbar-nav > .open > a, 
+    .navbar-inverse .navbar-nav > .open > a:hover,
+    .navbar-inverse .navbar-nav > .open > a:focus{
+color:rgb(223, 226, 226);
+background-color: rgb(158 68 61);
+}
+/* active link */
+.navbar-inverse .navbar-nav > .active > a{
+    background-color:rgb(158 68 61);
+}
+
+/* navbar brand style */
+.navbar-inverse .navbar-brand{
+color: #eee5e5;
+font-size: 23px;
+padding: 20px
+}
+.navbar-inverse .navbar-brand span{
+    color: #c2a6a6;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* dropdown style */
+    .dropdown-menu{
+    background-color: rgb(158 68 61);
+    border-top: 3px solid rgb(155, 40, 32);
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #c2a6a6;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /*  */
+    .dropdown-menu > li > a {
+    color:  #fff
+    }
+/* dropdown hover and active */
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus{
+        color: #eee;
+        background-color:rgb(128, 45, 39);
+        padding-left: 25px;
+        transition: padding 0.5s ease;
+    }
+/* drop li style */
+    .dropdown-menu > li{
+        padding: 4px;
+    }
+/* drop menu divider style */
+    .dropdown-menu .divider{
+        background-color: #724343;
+        margin: 1px;
+    }
+    .dropdown-menu > li >a {
+        padding: 16px 20px;
+    }
+
+/*  navbar dropdown way */
+    .navbar-right .dropdown-menu{
+        left: 0;
+        right: auto;
+    }
+
+    /* li style */
+    .navbar-nav > li{
+        font-size: 18px;
+    }
+
+    /* ************** end overriding bootstrap************* */
